@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="overlay" id="overlay">
+        <h3>searching now...
+        </h3>
+    </div>
+    <div class="hero-bg">
+        <section class = "top">
+            <header>
+                <a href="#">sizematters101.wordpress.com</a>
+            </header>
+
+            <h1><span>the healthy</span> eating experience !!</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio soluta eveniet quae deleniti quo reprehenderit doloribus quod doloremque facilis, eius aliquid similique, fugit voluptates. Eaque laborum vitae iusto suscipit quas.
+            </p>
+
+            <div class="form-container">
+                <form action="">
+                    <div class="form-left">
+                    <label for="">
+                        enter your city
+
+                    </label>
+
+                    <input type="text" name="city" id="city">
+                    <p>example  =  delhi </p>
+                    </div>
+
+                    <input type="button" value="find food now" id="cta">
+                </form>
+            </div>
+
+
+
+        </section>
+    </div>
+
+    <section class="authentic">
+        <div class="right-coloumb">
+            <h2>love,sex</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo asperiores sed totam nesciunt commodi delectus dignissimos sapiente, mollitia voluptatum deleniti.</p>
+
+        </div>
+        <img src="https://i.imgur.com/nXjDbCM.jpg" alt="image at left on desktop">
+    </section>
+
+<script>
+let btn= document.getElementById('cta')
+let overlay = document.getElementById('overlay');
+btn.addEventListener("click",() =>{
+    overlay.style.display = 'grid'
+    
+})
+
+</script>
+
+
+</body>
+</html>
